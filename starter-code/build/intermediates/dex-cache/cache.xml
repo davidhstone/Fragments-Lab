@@ -12,14 +12,14 @@
         jar="/Users/davidstone/Android_work/Fragments-Lab/starter-code/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="fad660be66f5d2c122d4c319e5b1a8813f58598c">
+        sha1="bccddbae09adec8b9da283faa9c00002bb9d61ea">
         <dex dex="/Users/davidstone/Android_work/Fragments-Lab/starter-code/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0a6845c3a0dc4bfcf7cac5e25b2a7656f0959220/classes.dex" />
     </item>
     <item
         jar="/Users/davidstone/Android_work/Fragments-Lab/starter-code/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="616014384a2151a1b6e4526677d4aeb6d6cbeb31">
+        sha1="2c955c892352c098d4d11929f3c0c89921e316a2">
         <dex dex="/Users/davidstone/Android_work/Fragments-Lab/starter-code/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6809986ac348984fd1cc9697c0e39eabb06b22ac/classes.dex" />
     </item>
     <item
