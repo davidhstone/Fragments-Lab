@@ -19,16 +19,15 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        switch (position){
-            //Complete this
-            default: return new PlaceholderFragment();
-        }
 
+            //Complete this
+            return PlaceholderFragment.newInstance(position);
     }
 
     @Override
     public int getCount() {
         // Show 3 total pages.
+        mPageCount = 3;
         return mPageCount;
     }
 
@@ -37,11 +36,11 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         switch (position){
             default:
             case 0:
-                return "PICTURE";
+                return "Picture";
             case 1:
-                return "ABOUT ME";
+                return "About Me";
             case 2:
-                return "CONTACT";
+                return "Contact";
         }
 
     }

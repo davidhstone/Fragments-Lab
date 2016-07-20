@@ -36,7 +36,8 @@ public class MainFragment extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
         toolbar = (Toolbar) rootView.findViewById(R.id.toolbar);
         // Get a reference to the ViewPager
@@ -56,6 +57,8 @@ public class MainFragment extends Fragment {
         toolbar.setTitle("UserInfoTabs");
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
+
+
         mSectionsPagerAdapter = new SectionsPagerAdapter(getFragmentManager(), 3);
 
         mViewPager.setAdapter(mSectionsPagerAdapter);
